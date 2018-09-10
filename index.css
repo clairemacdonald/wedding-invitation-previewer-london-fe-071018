@@ -1,0 +1,132 @@
+#preview {
+  align-content: right;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 10px;
+  width: 600px;
+  height:600px;
+  border: 1px solid #ccc;
+  background-color: black;
+ 
+}
+  
+#black {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 10px;
+  width: 600px;
+  height: 600px;
+  border: 1px solid #ccc;
+  background-color: black;
+  background-image: url('Untiled-1.png') no-repeat;
+ 
+}  
+  #floral {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 10px;
+  width: 600px;
+  height: 600px;
+  border: 1px solid #ccc;
+  background-color: black;
+   
+  }
+
+.input1,
+.input2,
+.input3,
+.input4,
+.input5{
+  width: 580px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+.input1 {
+ 
+  font-size: 46px;
+  color: #f2f2f2;
+  font-family: 'Kaushan Script', cursive;
+
+}
+.input2 {
+ 
+  font-size: 46px;
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+}
+.input3 {
+ 
+  font-size: 66px;
+  color:Grey;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.input4 {
+  font-size:30px;
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.input5 {
+  font-size:40px;
+  color:white;
+  font-family: 'Kaushan Script', cursive;
+}
+.flex-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Garramond, sans-serif;
+  color: black;
+  display: block;
+  text-align: center;
+  background-color: black;
+  
+}
+
+nav {
+  display: inline-block;
+  text-align: left;
+  color: white;
+  background: lightgrey;
+  border-radius: 8px;
+  padding: 10px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+input {
+  width:100px;
+
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: pink;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+ 
+}
+
+.names>* {
+  display:inline;
+  
+}
+
+
