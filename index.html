@@ -14,27 +14,37 @@
 
 <body>
   
-  <div class="flex-container">
+  
   <header>
-    
+   <div class="a">
       <h1>Wedding Invitation Designer </h1>
       
-      
-    <nav> <a href="index.css" target="_blank">Floral</a> </nav>
-    <nav> <a href="index.css" target="_blank">Vintage</a> </nav>
-    <nav> <a href="index.css" target="_blank">Modern</a> </nav>
+    
+ 
+   <!-- <nav> <a id="pink">Floral</a> </nav>
+    <nav> <a id="old">Vintage</a> </nav>
+    <nav> <a id="new">Modern</a> </nav> -->
+    
+    <section id="sec1">
+      <button id="btn1" onclick="changeimg()">Floral</button>
+      <button id="vintage" onclick="changeimg()">Vintage</button>
+      <button id="modern" onclick="changeimg()">Modern</button>
+    </section>
     
   </header>
-  
 
-
+<div class="flex-container">
+<div class="b">
 <input id="input1" type="text" class="input" placeholder="First Name" /><br/>
 <input id="input2" type="text" class="input" placeholder="Second Name" /><br/>
 <input id="input3" type="text" class="input" placeholder="Last Name" /><br/>
 <input id="input4" type="text" class="input" placeholder="Date" /><br/>
 <input id="input5" type="text" class="input" placeholder="Wedding Location" /><br/>
 
+</div>
 
+<div class="c">
+  
 <div id="preview">
    <h3>You are cordially invited to the wedding of</h3>
     <div class="names">
@@ -46,28 +56,18 @@
     <div class="input4"></div>
     <div class="input5"></div>
 </div>
-
-
-<div id="black">
-    <div class="input1"></div>
-    <div class="input2"></div>
-    <div class="input3"></div>
-    <div class="input4"></div>
-    <div class="input5"></div>
 </div>
 
-<div id="floral">
-    <div class="input1"></div>
-    <div class="input2"></div>
-    <div class="input3"></div>
-    <div class="input4"></div>
-    <div class="input5"></div>
+
+
+
 </div>
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 <script src="index.js"></script>
-</div>
+
+
 </body>
 </html>
