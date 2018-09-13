@@ -10,7 +10,28 @@ body {
   background-color: #f9ebdd;
  
   
+}
 
+/*nav {
+  display: inline-block;
+  text-align: left;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+
+}*/
+
+/*nav a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}*/
+
+/*input {
+  width:100px;
+  
+
+}*/
 
 h1 {
   color: white;
@@ -18,7 +39,26 @@ h1 {
   
 }
 
+/*h3 {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+ 
+}*/
 
+/*.names>* {
+  display:inline;
+  
+}*/
+
+
+
+/*.b {
+  position: absolute;
+  left: 80px;
+  padding: 50px, 50px;
+
+}*/
 
 header {
   text-align: justify;
@@ -27,7 +67,22 @@ header {
   font-family: 'Dancing Script', cursive;
 }
 
+/*.c {
+  
+}*/
 
+/*#preview2 {
+  display: none;
+  align-content: right;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 10px;
+  width: 600px;
+  height:600px;
+  border: 1px solid #ccc;
+  background-color: black;
+  background-image: url('https://creative.blis.com/JamieInviteTest/pink.png');
+}*/
 
 body {
   background: #f9ebdd;
@@ -85,6 +140,7 @@ form {
 form.active {
   max-height: 80vh;
   transition: max-height 0.15s ease-in-out;
+  border: #f6cde4;
 }
 
 .input {
@@ -100,7 +156,7 @@ form.active {
   font-size: 1.5vw;
   display: block;
   background-color: white;
-  color: lightgrey;
+  color: #f6cde4;
   width: 50%;
 }
 
@@ -130,35 +186,39 @@ form.active {
   position: relative;
 }
 #display-first-spouse{
-  position: absolute;
+ 
+    position: absolute;
     left: 50%;
     top: 40%;
     text-align: center;
-        transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 #display-second-spouse{
-  position: absolute;
+
+    position: absolute;
     left: 50%;
     top: 50%;
     text-align: center;
-        transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 #display-date {
-   position: absolute;
+   
+    position: absolute;
     left: 50%;
     top: 70%;
     text-align: center;
-        transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 #display-location {
-   position: absolute;
+   
+    position: absolute;
     left: 50%;
     top: 80%;
     text-align: center;
-        transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 h4 {
@@ -168,22 +228,24 @@ h4 {
  top: 5;
  text-align: center;
  transform: translateX(-50%);
+ 
 }
 
 h2 {
-  color: lightgrey;
+  color: #f6cde4;
+  font-family: 'Fjalla One', cursive;
 }
 
- #floral .options button {
-  font-family: helvetica;
+
   
-}
+
 
 h5 {
+
  font-size: 2vw;
  position: absolute;
  left: 50%;
- top: 30;
+ top: 40%;;
  text-align: center;
  transform: translateX(-50%);
 }
