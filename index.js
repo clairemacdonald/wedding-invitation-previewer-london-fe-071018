@@ -13,7 +13,7 @@ const fields = ["first-spouse", "second-spouse", "date", "location"];
 
 const images = {
   floral: "https://creative.blis.com/JamieInviteTest/pink.png",
-  vintage: "file:///Users/clairemacdonald/Desktop/Untitled-1.png",
+  vintage: "https:///Users/clairemacdonald/Desktop/Untitled-1.png",
   modern: "https://creative.blis.com/JamieInviteTest/circle.png",
 
 };
